@@ -1,0 +1,6 @@
+framework module SYBase_Common {
+  umbrella header "SYBase_Common-umbrella.h"
+
+  export *
+  module * { export * }
+}

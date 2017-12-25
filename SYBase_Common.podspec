@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SYBase_Common/Classes/**/*'
-  
+  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>','#import "CommonHeader.h"'
   # s.resource_bundles = {
   #   'SYBase_Common' => ['SYBase_Common/Assets/*.png']
   # }

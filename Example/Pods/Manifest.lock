@@ -1,0 +1,16 @@
+PODS:
+  - SYBase_Common (0.1.0)
+
+DEPENDENCIES:
+  - SYBase_Common (from `../`)
+
+EXTERNAL SOURCES:
+  SYBase_Common:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYBase_Common: ebf8b0082c1a95c76fdd6ab39c9c61af434f3bd3
+
+PODFILE CHECKSUM: 2959da285adcbee77adee84edc43b3965f36ace1
+
+COCOAPODS: 1.1.1
