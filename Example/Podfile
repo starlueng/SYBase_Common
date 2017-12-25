@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SYBase_Common_Example' do
+  pod 'SYBase_Common', :path => '../'
+
+  target 'SYBase_Common_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
